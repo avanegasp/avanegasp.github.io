@@ -1,0 +1,255 @@
+/* inicia la parte de home */
+
+.home-wrapper {
+	background: url('../img/home.jpg')no-repeat center top;
+	background-size: cover;
+	color: white;
+	display: inline-block;
+}
+
+header .container{
+	padding: 35px 0;
+
+}
+
+
+.container nav {
+	position: fixed;
+	background: rgba(48, 48, 48, 0.2);
+
+}
+
+header nav a{
+	color: #ff0047;
+	font-weight: bold;
+	margin-left: 25px;	
+	padding: 10px 25px;
+	display: inline-block;
+}
+
+header nav a.active{
+	color: #010101;
+}
+
+#principal{
+	vertical-align: baseline;
+	padding: 200px 0 150px;
+	margin-left: 150px;
+	font-size: 16px;
+	line-height: 26px;
+	margin-bottom: 20px;
+}
+
+#principal p{
+	text-align: left;
+}
+
+#principal a{
+	background-color: #ff0047;
+	padding: 18px;
+	font-size: 18px;
+	color: white;
+	font-weight: normal;
+	border-radius: 3px;
+	display: inline-block;
+}
+
+#principal .second{
+	background: #555550;
+	margin-left: 40px;
+}
+
+.fa{
+	margin-left: 25px;
+	height: 17px;
+	width: 10px;
+	color: white;
+}
+
+/* hasta acá toda la parte de home */
+
+/* comienza todo sobre la parte de los proyectos */
+
+.container-up{
+	display: block;
+	padding-top: 125px;
+	padding-bottom: 260px; 
+	padding-left: 150px;
+	box-sizing: border-box;
+}
+
+.container-up img {
+	float: left;
+	width: 50%;
+	vertical-align: top;
+}
+
+h1{
+	font-size: 55px;
+}
+
+#projects p {
+	text-align: left;
+}
+
+.skills li{
+	display: inline;
+	line-height: 60px;
+}
+
+.portafolio-description li{
+	color: #ff0047;
+}
+
+.portafolio-description p{
+	text-align: justify-all;
+}
+
+.portafolio-description .skills li {
+	color: white;
+	background: #ff0047;
+	text-decoration:none;
+	border-radius: 5px;
+	font-size: 15px;
+	padding: 12px; 
+}
+
+/* hasta acá descripcion de los proyectos */
+
+/*línea de división*/
+
+.line{
+	border:3px solid #EAEDED;
+	border-radius: 300px/10px; 
+}
+
+/* Hasta acá línea de división */
+
+/* Todo sobre mi descripción */
+
+
+#about-me{
+	display: block;
+	box-sizing: border-box;
+}
+
+.presentation{
+	display: inline-block;
+	text-align: justify;
+	padding: 20px 30px;
+}
+
+.photo img{
+	display: inline-block;
+	width: 20%;
+	border-radius: 30%;
+}
+
+
+h3{
+	color: #ff0047;
+}
+
+h4{
+	color: #555550;
+}
+
+/*Hasta acá mi descripción */
+
+/* Desde acá mi contacto */
+
+.contact{
+	margin-top: 110px;
+	margin-left: 40px;
+	padding: 70px;
+	text-align: center; 
+}
+
+.contact input{
+	padding: 8px;
+	border: 1px grey;
+	border-radius: 10px;
+	background: #F2F4F4;
+}
+
+.message textarea{
+	display: inline-block;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	border-radius: 10px;
+	background: #F2F4F4;
+	border: 10px;
+	padding: 15px 10px;
+	width: 570px;
+	height: 150px;
+}
+
+.send{
+	background: white;
+	padding: 8px 25px;
+	border-radius: 8px;
+	border: 1px solid #ff0047;
+	color: #ff0047;
+	font-weight: bold;
+	margin-left: 200px;
+
+}
+
+/* Hasta acá todo sobre mis contacto */
+
+/* footer */
+
+
+.social-media{
+	background: #F2F4F4;
+	text-align: center;
+
+}
+
+.links{
+	color:black;
+ 	margin-left: 50px;
+ 	margin-right: 40px;
+ 	margin-bottom: 50px;
+}
+
+.social-media h4{
+	text-align: right;
+	margin-left: 450px;
+	margin-top: 50px;
+}
+
+/* hasta acá footer */
+
+/*
+@media(min-width: 360px){
+	body {
+		background: green;
+	}
+}
+
+@media(min-width: 768px){
+	body {
+		background: red;
+	}
+}
+
+@media(min-width: 1200px){
+	body {
+		background: blue;
+	}
+}
+*/
+
+
+
+
+
+
+
+
+
+
+
+
+
