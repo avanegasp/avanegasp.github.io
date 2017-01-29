@@ -4,7 +4,7 @@
 	background: url('../img/home.jpg')no-repeat center top;
 	background-size: cover;
 	color: white;
-	display: inline-block;
+	/*display: inline-block;*/
 }
 
 header .container{
@@ -14,10 +14,9 @@ header .container{
 
 /* width : 190px; */
 
-.container nav {
+.container nav a{
 	/*position: fixed;*/
-	background: rgba(48, 48, 48, 0.2);
-
+	text-decoration: none;
 }
 
 header nav a{
@@ -25,7 +24,7 @@ header nav a{
 	font-weight: bold;
 	margin-left: 25px;	
 	padding: 10px 25px;
-	display: inline-block;
+	/*display: inline-block;*/
 }
 
 header nav a.active{
@@ -51,7 +50,7 @@ header nav a.active{
 	padding: 18px;
 	font-size: 18px;
 	color: white;
-	font-weight: normal;
+	/*font-weight: normal;*/
 	border-radius: 3px;
 	display: inline-block;
 }
@@ -64,7 +63,6 @@ header nav a.active{
 .fa{
 	margin-left: 25px;
 	height: 17px;
-	width: 10px;
 	color: white;
 }
 
@@ -131,10 +129,7 @@ h1{
 /* Todo sobre mi descripción */
 
 
-#about-me{
-	display: block;
-	box-sizing: border-box;
-}
+
 
 .presentation{
 	display: inline-block;
@@ -149,7 +144,7 @@ h1{
 	width: 20%;
 	border-radius: 30%;
 	margin-left: 550px;
-	margin-right: 550px;
+	/*margin-right: 550px; OJOOOOOOOOOOOO!!!!*/
 	margin-top: 50px;
 }
 
@@ -229,39 +224,161 @@ h4{
 /* hasta acá footer */
 
 
-@media(min-width: 360px){
-	
 
+/* inicio media-queries */
+
+  @media (min-width: 320px) and (max-width: 480px) {
+	
+	body {
+		background: purple;
+	}	
+
+	header nav a {
+		font-size: 20px;
+	}
+
+	h1{
+		font-size: 35px;
+		font-weight: bold;
+	}
+
+	#principal a {
+		display: table-row;
+		font-size: 15px;
+		padding: 80px 0 50px;
+	}
+
+	p{
+		margin: 0 0 30px;
+		font-size: 20px;
+		display: table-cell;
+		padding: 15px;
+	}
+	
+	a {
+		display: -webkit-inline-box;
+	}
 	.photo img {
-		margin-left: 300px;
-		width: 20%;
-		margin-left: 300px;	
+		margin-left: 160px;
+		width: 40%;
+		font-size: 16px;
+	}
+	
+	.presentation {
+		display: table-cell;
+	}
+
+	.container-up img{
+		width: 150%;
 	}
 
 	.message textarea{
-		width: 190px;
+		width: 330px;
 	}
-};
 
-@media(min-width: 768px){
-	
-	.photo img {
-		width: 20%;
-		margin-left: 300px;
+	.social-media {
+		text-align: -webkit-right;
 	}
+
+	a {
+		margin-left: 70px;
+	}
+}
+
+
+  @media (min-width: 481px) and (max-width: 800px) {
+	
+	body {
+		background: blue;
+	}	
+	
+	#principal a {
+		font-size: 15px;
+	}
+
+	.container nav a {
+		padding: 20px;
+	}
+
+	.container-up img{
+		width: 100%;
+	} 
+
+	.skills li {
+		line-height: 50px;
+		display: inline;
+	}
+
+	.photo img {
+		margin-left: 180px;
+		width: 30%;
+	}
+
+	.social-media h4 {
+		margin-left: 80px;
+		margin-right: 80px;
+	}
+
+	.presentation {
+		display: table-cell;
+	}
+	
+
 	.message textarea{
-		width: 570px;
+		width: 390px;
 	}
-};
+}
 
-@media(min-width: 1200px){
+  @media (min-width: 801px) and (max-width: 960px) {
 	
+	body {
+		background: yellow;
+	}	
+
 	.photo img {
-		width: 20%;
 		margin-left: 300px;
 	}
+
+
+	.social-media h4 {
+		margin-left: 150px;
+		margin-right: 150px;
+	}
 	
-};
+}
+
+@media (min-width: 961px) and (max-width: 1024px) { 
+
+	body {
+		background: green;
+	}	
+	
+	.photo img {
+		margin-left: 350px;
+	}
+
+	.portafolio-description .skills li{
+		padding: 9px;
+		display: inline;
+	}
+
+		.social-media h4 {
+			margin-left: 250px;
+			margin-right: 250px;
+		}
+	}
+ 
+
+@media (min-width: 1025px) and (max-width: 1680px) { 
+
+
+		
+
+	.social-media h4 {
+			margin-left: 250px;
+			margin-right: 250px;
+		}
+}
 
 
 
