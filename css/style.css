@@ -35,6 +35,9 @@ header nav a.active{
 	line-height: 26px;
 	margin-bottom: 20px;
 }
+#principal h1{
+	font-size: 56px;
+}
 
 #principal p{
 	text-align: left;
@@ -239,8 +242,8 @@ h4{
 		font-size: 15px;
 	}
 
-	h1{
-		font-size: 40px;
+	#principal h1{
+		font-size: 26px;
 		font-weight: bold;
 	}
 
@@ -292,6 +295,7 @@ h4{
 
 	#projects p{
 		text-align: -webkit-center;
+		font-size: 14px;
 	}
 
 	#about-me h1{
@@ -303,7 +307,11 @@ h4{
 	}
 
 	.message textarea{
-		width: 330px;
+		width: 270px;
+	}
+
+	.send {
+		margin-left: 130px;
 	}
 
 	.social-media{
