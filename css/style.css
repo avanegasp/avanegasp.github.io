@@ -1,21 +1,16 @@
 /* inicia la parte de home */
 
-.home-wrapper {
+.home-wrapper{
 	background: url('../img/home.jpg')no-repeat center top;
 	background-size: cover;
 	color: white;
-	/*display: inline-block;*/
 }
 
 header .container{
 	padding: 35px 0;
-
 }
 
-/* width : 190px; */
-
 .container nav a{
-	/*position: fixed;*/
 	text-decoration: none;
 }
 
@@ -24,7 +19,6 @@ header nav a{
 	font-weight: bold;
 	margin-left: 25px;	
 	padding: 10px 25px;
-	/*display: inline-block;*/
 }
 
 header nav a.active{
@@ -51,14 +45,8 @@ header nav a.active{
 	padding: 18px;
 	font-size: 18px;
 	color: white;
-	/*font-weight: normal;*/
 	border-radius: 3px;
 	display: inline-block;
-}
-
-#principal .second{
-	background: #555550;
-	margin-left: 40px;
 }
 
 .fa{
@@ -71,32 +59,28 @@ header nav a.active{
 
 /* comienza todo sobre la parte de los proyectos */
 
-#projects h1 {
-	font-size: 50px;
+#projects h1{
+	font-size: 40px;
 	padding: 70px;
 	text-align: center;
+	font-weight: bold;
 }
 
 .container-up{
 	display: block;
-	/* padding-top: 125px; */
 	padding-bottom: 260px; 
 	padding-left: 150px;
 	padding-right: 150px;
 	box-sizing: border-box;
 }
 
-.container-up img {
+.container-up img{
 	float: left;
 	width: 50%;
 	vertical-align: top;
 }
 
-h1{
-	font-size: 55px;
-}
-
-#projects p {
+#projects p{
 	text-align: left;
 }
 
@@ -113,7 +97,7 @@ h1{
 	text-align: justify-all;
 }
 
-.portafolio-description .skills li {
+.portafolio-description .skills li{
 	color: white;
 	background: #ff0047;
 	text-decoration:none;
@@ -136,7 +120,7 @@ h1{
 
 /* Todo sobre mi descripción */
 
-#about-me h1 {
+#about-me h1{
 	font-size: 50px;
 	text-align: center;
 }
@@ -154,7 +138,6 @@ h1{
 	width: 20%;
 	border-radius: 30%;
 	margin-left: 550px;
-	/*margin-right: 550px; OJOOOOOOOOOOOO!!!!*/
 	margin-top: 50px;
 }
 
@@ -171,21 +154,18 @@ h4{
 
 /* Desde acá mi contacto */
 
-#contact-nav h1 {
+#contact-nav h1{
 	font-size: 50px;
 	text-align: center;
 }
 
 .contact{
-	/*margin-top: 110px;
-	margin-left: 40px;*/
 	padding: 70px;
 	text-align: center; 
 }
 
 .contact input{
 	padding: 8px;
-	/*border: 1px grey;*/
 	border-radius: 10px;
 	background: #F2F4F4;
 }
@@ -210,7 +190,6 @@ h4{
 	color: #ff0047;
 	font-weight: bold;
 	margin-left: 200px;
-
 }
 
 /* Hasta acá todo sobre mis contacto */
@@ -221,7 +200,6 @@ h4{
 .social-media{
 	background: #F2F4F4;
 	text-align: center;
-
 }
 
 .links{
@@ -242,18 +220,37 @@ h4{
 
 /* inicio media-queries */
 
-  @media (min-width: 320px) and (max-width: 480px) {
+@media (min-width: 150px) and (max-width: 319px){
+		
+		.photo img {
+			margin-left: 120px;
+		}
+		
+		.message textarea{
+		width: 240px;
+	}
+
+}
+
+  
+@media (min-width: 320px) and (max-width: 480px){
 
 	header nav a {
-		font-size: 20px;
+		font-size: 15px;
 	}
 
 	h1{
-		font-size: 35px;
+		font-size: 40px;
 		font-weight: bold;
 	}
 
-	#principal a {
+	#principal{
+		padding: 100px 0 150px;
+		margin-left: 100px;
+		margin-right: 100px;
+	}
+
+	#principal a{
 		display: table-row;
 		font-size: 15px;
 		padding: 80px 0 50px;
@@ -266,23 +263,22 @@ h4{
 		padding: 15px;
 	}
 	
-	a {
+	a{
 		display: -webkit-inline-box;
 		margin-top: 20px;
 	}
 
-	
-	.photo img {
-		margin-left: 160px;
+	.photo img{
+		margin-left: 120px;
 		width: 40%;
 		font-size: 16px;
 	}
 	
-	.presentation {
+	.presentation{
 		display: table-cell;
 	}
 
-	.container-up {
+	.container-up{
 		display: table-row-group; 
 		padding-left: 25px; 
 		padding-right: 50px;
@@ -294,19 +290,27 @@ h4{
 		margin-left: 90px;
 	}
 
-	#projects p {
-		text-align: justify;
+	#projects p{
+		text-align: -webkit-center;
+	}
+
+	#about-me h1{
+		font-size: 40px;
+	}
+
+	#contact-nav h1{
+		font-size: 40px;
 	}
 
 	.message textarea{
 		width: 330px;
 	}
 
-	.social-media {
+	.social-media{
 		text-align: -webkit-right;
 	}
 
-	a {
+	a{
 		margin-left: 140px;
 	}
 }
@@ -314,11 +318,11 @@ h4{
 
   @media (min-width: 481px) and (max-width: 800px) {
 		
-	#principal a {
+	#principal a{
 		font-size: 15px;
 	}
 
-	.container nav a {
+	.container nav a{
 		padding: 20px;
 	}
 
@@ -326,46 +330,43 @@ h4{
 		width: 100%;
 	} 
 
-	.skills li {
+	.skills li{
 		line-height: 50px;
 		display: inline;
 	}
 
-	.photo img {
+	.photo img{
 		margin-left: 300px;
 		width: 30%;
 	}
 
-	.social-media h4 {
+	.social-media h4{
 		margin-left: 80px;
 		margin-right: 80px;
 	}
 
-	.presentation {
+	.presentation{
 		display: table-cell;
 	}
 	
-
 	.message textarea{
-		width: 570px;
+		width: 370px;
 	}
 }
 
-  @media (min-width: 801px) and (max-width: 960px) {
+  @media (min-width: 801px) and (max-width: 960px){
 
 	.photo img {
 		margin-left: 300px;
 	}
 
-
 	.social-media h4 {
 		margin-left: 150px;
 		margin-right: 150px;
-	}
-	
+	}	
 }
 
-@media (min-width: 961px) and (max-width: 1024px) { 	
+@media (min-width: 961px) and (max-width: 1024px){ 	
 	
 	.photo img {
 		margin-left: 350px;
@@ -376,19 +377,19 @@ h4{
 		display: inline;
 	}
 
-		.social-media h4 {
+	.social-media h4{
 			margin-left: 250px;
 			margin-right: 250px;
-		}
 	}
+}
  
 
-@media (min-width: 1025px) and (max-width: 1680px) { 
+@media (min-width: 1025px) and (max-width: 1680px){ 
 
-	.social-media h4 {
+	.social-media h4{
 			margin-left: 250px;
 			margin-right: 250px;
-		}
+	}
 }
 
 
