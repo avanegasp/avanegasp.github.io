@@ -267,9 +267,9 @@ h4{
 	}
 	
 	.portafolio-description a {
-		display: -webkit-inline-box;
+		display: inline;
 		margin-top: 20px;
-		margin-left: 130px;
+		margin-left: 115px;
 		margin-bottom: 20px;
 		text-decoration: underline;
 	}
@@ -281,7 +281,7 @@ h4{
 
 
 	.portafolio-description .skills li{
-		padding: 8px;
+		padding: 4px;
 	}
 
 	.photo img{
@@ -295,7 +295,7 @@ h4{
 	}
 
 	.container-up{
-		display: table-row-group; 
+		display: inline; 
 		padding-left: 25px; 
 		padding-right: 50px;
 		padding-bottom: 100px;
@@ -321,7 +321,7 @@ h4{
 	}
 
 	.message textarea{
-		width: 270px;
+		width: 230px;
 	}
 
 	.send {
