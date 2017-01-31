@@ -266,9 +266,22 @@ h4{
 		padding: 15px;
 	}
 	
-	a{
+	.portafolio-description a {
 		display: -webkit-inline-box;
 		margin-top: 20px;
+		margin-left: 130px;
+		margin-bottom: 20px;
+		text-decoration: underline;
+	}
+
+	.a a{
+		display: -webkit-inline-box;
+		text-decoration: underline;
+	}
+
+
+	.portafolio-description .skills li{
+		padding: 8px;
 	}
 
 	.photo img{
@@ -291,6 +304,7 @@ h4{
 	.container-up img{
 		width: 60%;
 		margin-left: 90px;
+		margin-bottom: 20px;
 	}
 
 	#projects p{
@@ -314,13 +328,10 @@ h4{
 		margin-left: 130px;
 	}
 
-	.social-media{
-		text-align: -webkit-right;
+	.social-media li {
+		display: inline-block;
 	}
 
-	a{
-		margin-left: 140px;
-	}
 }
 
 
@@ -358,7 +369,11 @@ h4{
 	}
 	
 	.message textarea{
-		width: 370px;
+		width: 470px;
+	}
+
+	.social-media li{
+		display: inline-block;
 	}
 }
 
@@ -389,6 +404,10 @@ h4{
 			margin-left: 250px;
 			margin-right: 250px;
 	}
+
+		.social-media li{
+		display: inline-block;
+	}
 }
  
 
@@ -397,6 +416,10 @@ h4{
 	.social-media h4{
 			margin-left: 250px;
 			margin-right: 250px;
+	}
+
+		.social-media li{
+		display: inline-block;
 	}
 }
 
