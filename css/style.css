@@ -207,9 +207,9 @@ h4{
 
 .links{
 	color:black;
- 	margin-left: 50px;
- 	margin-right: 40px;
- 	margin-bottom: 50px;
+ 	margin-left: 10px;
+ 	margin-right: 10px;
+ 	margin-bottom: 25px;
 }
 
 .social-media h4{
@@ -262,7 +262,6 @@ h4{
 	p{
 		margin: 0 0 30px;
 		font-size: 20px;
-		display: table-footer-group;
 		padding: 15px;
 	}
 	
@@ -279,9 +278,9 @@ h4{
 		text-decoration: underline;
 	}
 
-
 	.portafolio-description .skills li{
 		padding: 4px;
+		margin-left: 9px;
 	}
 
 	.photo img{
