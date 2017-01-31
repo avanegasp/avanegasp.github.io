@@ -92,6 +92,12 @@ header nav a.active{
 	line-height: 60px;
 }
 
+.portafolio-description a{
+	color: #000000;
+	text-decoration: underline;
+	font-weight: bold;
+}
+
 .portafolio-description li{
 	color: #ff0047;
 }
@@ -266,11 +272,7 @@ h4{
 	}
 	
 	.portafolio-description a {
-		display: inline;
-		margin-top: 20px;
 		margin-left: 115px;
-		margin-bottom: 20px;
-		text-decoration: underline;
 	}
 
 	.a a{
