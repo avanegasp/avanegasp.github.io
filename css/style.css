@@ -53,9 +53,10 @@ header nav a.active{
 	display: inline-block;
 }
 
-#about-me .icons .fa{
+
+#about-me li a{
 	color: red;
-	margin-left: 25px;
+	padding: 15px;
 }
 
 #about-me li {
@@ -71,6 +72,7 @@ header nav a.active{
 	font-size: 50px;
 	padding: 70px;
 	font-weight: bold;
+	text-align: center;
 }
 
 .container-up{
