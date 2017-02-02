@@ -1,5 +1,6 @@
 /* inicia la parte de home */
 
+
 .home-wrapper{
 	background: url('../img/home.jpg')no-repeat center top;
 	background-size: cover;
@@ -22,7 +23,7 @@ header nav a{
 }
 
 header nav a.active{
-	color: #010101;
+	color: #FFFFFF;
 }
 
 
@@ -52,10 +53,14 @@ header nav a.active{
 	display: inline-block;
 }
 
-.fa{
+#about-me .icons .fa{
+	color: red;
 	margin-left: 25px;
-	height: 17px;
-	color: white;
+}
+
+#about-me li {
+	list-style: none;
+	text-align: center;
 }
 
 /* hasta acá toda la parte de home */
@@ -65,7 +70,6 @@ header nav a.active{
 #projects h1{
 	font-size: 50px;
 	padding: 70px;
-	text-align: center;
 	font-weight: bold;
 }
 
@@ -146,7 +150,7 @@ header nav a.active{
 .photo img{
 	display: inline-block;
 	width: 20%;
-	border-radius: 30%;
+	border-radius: 5%;
 	margin-left: 550px;
 	margin-top: 50px;
 }
