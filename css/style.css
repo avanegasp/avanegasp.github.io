@@ -59,79 +59,13 @@ header nav a.active{
 	padding: 15px;
 }
 
-#about-me li {
+#about-me li{
 	list-style: none;
 	text-align: center;
 }
 
 /* hasta acá toda la parte de home */
 
-/* comienza todo sobre la parte de los proyectos */
-
-#projects h1{
-	font-size: 50px;
-	padding: 70px;
-	font-weight: bold;
-	text-align: center;
-}
-
-.container-up{
-	display: block;
-	padding-bottom: 260px; 
-	padding-left: 150px;
-	padding-right: 150px;
-	box-sizing: border-box;
-}
-
-.container-up img{
-	float: left;
-	width: 50%;
-	vertical-align: top;
-}
-
-#projects p{
-	text-align: left;
-}
-
-.skills li{
-	display: inline;
-	line-height: 60px;
-}
-
-.portafolio-description a{
-	color: #000000;
-	text-decoration: underline;
-	font-weight: bold;
-}
-
-.portafolio-description li{
-	color: #ff0047;
-}
-
-.portafolio-description p{
-	text-align: justify-all;
-}
-
-.portafolio-description .skills li{
-	color: white;
-	background: #ff0047;
-	text-decoration:none;
-	border-radius: 5px;
-	font-size: 15px;
-	padding: 12px; 
-}
-
-/* hasta acá descripcion de los proyectos */
-
-/*línea de división*/
-
-.line{
-	border:3px solid #EAEDED;
-	border-radius: 300px/10px; 
-	margin-bottom: 120px;
-}
-
-/* Hasta acá línea de división */
 
 /* Todo sobre mi descripción */
 
@@ -167,6 +101,54 @@ h4{
 }
 
 /*Hasta acá mi descripción */
+
+/* comienza todo sobre la parte de los proyectos */
+
+.container-pro{
+	margin-bottom: 80px;
+}
+
+.container-pro a{
+	text-decoration: underline;
+	color: #ff0047;
+}
+
+.container-pro p{
+	text-align: justify-all;
+}
+
+
+h2{
+	font-size: 50px;
+	text-align: center;
+	font-weight: bold;
+	margin-bottom: 40px;
+}
+
+#projects .container-up{
+	display: inline-block;
+	width: 30%;
+	padding: 10px;
+	margin-left: 40px;
+}
+
+#projects img{
+	width: 80%;
+}
+
+/* hasta acá descripcion de los proyectos */
+
+
+/*línea de división*/
+
+.line{
+	border:3px solid #EAEDED;
+	border-radius: 300px/10px; 
+	margin-bottom: 60px;
+}
+
+/* Hasta acá línea de división */
+
 
 /* Desde acá mi contacto */
 
@@ -213,7 +195,6 @@ h4{
 
 /* footer */
 
-
 .social-media{
 	background: #F2F4F4;
 	text-align: center;
@@ -239,7 +220,7 @@ h4{
 
 @media (min-width: 150px) and (max-width: 319px){
 		
-		.photo img {
+		.photo img{
 			margin-left: 120px;
 		}
 		
@@ -251,6 +232,34 @@ h4{
 
   
 @media (min-width: 320px) and (max-width: 480px){
+	
+	h2{
+		font-size: 40px;
+	}
+
+	#projects{
+		display: inline-block;
+		margin-right: 40px;
+	}
+
+	#projects h3{
+		font-size: 15px;
+		text-align: center;
+	}
+
+	#projects p{
+		font-size: 9px;
+		text-align: left;
+	}
+
+	#projects img{
+		width: 100%;
+		margin-left: 15px;
+	}
+
+	#projects .container-up {
+		display: table-cell;
+	}
 
 	header nav a {
 		font-size: 15px;
@@ -278,10 +287,6 @@ h4{
 		font-size: 20px;
 		padding: 15px;
 	}
-
-	#projects h1{
-		font-size: 40px;
-	}
 	
 	.portafolio-description a {
 		margin-left: 115px;
@@ -292,11 +297,6 @@ h4{
 		text-decoration: underline;
 	}
 
-	.portafolio-description .skills li{
-		padding: 4px;
-		margin-left: 9px;
-	}
-
 	.photo img{
 		margin-left: 120px;
 		width: 40%;
@@ -305,24 +305,6 @@ h4{
 	
 	.presentation{
 		display: table-cell;
-	}
-
-	.container-up{
-		display: inline; 
-		padding-left: 25px; 
-		padding-right: 50px;
-		padding-bottom: 100px;
-	}
-
-	.container-up img{
-		width: 60%;
-		margin-left: 90px;
-		margin-bottom: 20px;
-	}
-
-	#projects p{
-		text-align: -webkit-center;
-		font-size: 14px;
 	}
 
 	#about-me h1{
@@ -358,17 +340,23 @@ h4{
 		padding: 20px;
 	}
 
-	.container-up img{
+	#projects img{
 		width: 100%;
 	} 
 
-	.skills li{
-		line-height: 50px;
-		display: inline;
+	#projects h3{
+		font-size: 17px;
+		text-align: center;
+		text-decoration:underline;
+	}
+
+	#projects p{
+		font-size: 15px;
+		text-align: justify-all;
 	}
 
 	.photo img{
-		margin-left: 300px;
+		margin-left: 210px;
 		width: 30%;
 	}
 
@@ -382,7 +370,7 @@ h4{
 	}
 	
 	.message textarea{
-		width: 470px;
+		width: 350px;
 	}
 
 	.social-media li{
@@ -392,11 +380,11 @@ h4{
 
   @media (min-width: 801px) and (max-width: 960px){
 
-	.photo img {
+	.photo img{
 		margin-left: 300px;
 	}
 
-	.social-media h4 {
+	.social-media h4{
 		margin-left: 150px;
 		margin-right: 150px;
 	}	
@@ -404,13 +392,12 @@ h4{
 
 @media (min-width: 961px) and (max-width: 1024px){ 	
 	
-	.photo img {
-		margin-left: 350px;
+	.photo img{
+		margin-left: 390px;
 	}
 
-	.portafolio-description .skills li{
-		padding: 9px;
-		display: inline;
+	#projects{
+		margin-left: 15px;
 	}
 
 	.social-media h4{
