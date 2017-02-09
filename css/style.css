@@ -126,7 +126,7 @@ h2{
 }
 
 #projects .container-up{
-	display: inline-block;
+	display: table-cell;
 	width: 30%;
 	padding: 10px;
 	margin-left: 40px;
@@ -388,6 +388,10 @@ h2{
 		margin-left: 150px;
 		margin-right: 150px;
 	}	
+
+	#projects .container-up {
+		display: table-cell;
+	}
 }
 
 @media (min-width: 961px) and (max-width: 1024px){ 	
